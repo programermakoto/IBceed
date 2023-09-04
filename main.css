@@ -38,7 +38,15 @@ img {
 
 .navbar {
   box-shadow: var(--box-shadow);
+  position: fixed;
+  top:0;
+  width: 100%;
+  transition: background-color .3s;
 }
+.navbar.scrolled{
+  background-color:rgba(0, 0, 0, 0.781);
+}
+
 
 .logo {
   width: 160px;
@@ -57,6 +65,7 @@ img {
   padding: 14px 18px;
   border-width: 2px;
   border-radius: 0;
+
 }
 
 .hero {
@@ -66,7 +75,7 @@ img {
   background-attachment: fixed;
   position: relative;
   z-index: 2;
-
+  padding-top: 40px;
 }
 
 .hero::after {
@@ -251,6 +260,21 @@ form .form-control {
 
 .footer-top a:hover {
   color: #fff;
+}
+
+#to_top{
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  opacity: 0;
+  transition: opcity .4s;
+}
+#to_top.scrolled{
+  opacity: 1;
+}
+#to_top i{
+  font-size: 32px;
+  color: var(--primary);
 }
 
 
