@@ -307,3 +307,8 @@ form .form-control {
   padding: 20px 10px;
   border-radius: 50%;
 }
+@media(max-width:500px){
+  .text-top{
+    font-size: 50px;
+  }
+}
