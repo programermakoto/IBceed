@@ -267,8 +267,8 @@ form .form-control {
 }
 
 /*id="service-?"*/
-.hh{
-  height:auto;
+.hh {
+  height: auto;
   margin-bottom: 50px;
 }
 
@@ -284,7 +284,7 @@ form .form-control {
   letter-spacing: 4px;
   color: #fff;
   border: 1px solid white;
-  margin:10px;
+  margin: 10px;
   background-color: #0d6efd;
 }
 
@@ -294,7 +294,7 @@ form .form-control {
   letter-spacing: 4px;
   width: 95%;
   color: #5e5c45;
-  text-align:center;
+  text-align: center;
   margin: 30px auto;
   padding: 10px 10px;
 }
@@ -306,12 +306,31 @@ form .form-control {
   width: 70%;
   margin: 0 auto;
 }
-span{
+.top-1{
+  font-size: 25px;
+  color: white;
+}
+
+span {
   padding: 2px;
   border-bottom: 3px solid;
 }
-@media(max-width:500px){
-  .text-top{
-    font-size: 50px;
+
+@media(max-width:500px) {
+  .text-top {
+    font-size: 38px;
+  }
+
+  .top-1 {
+    font-size: 16px;
+    
+  }
+
+  .hh h1 {
+    font-size: 22px;
+  }
+
+  .hh p {
+    font-size: 15px;
   }
 }

@@ -302,15 +302,28 @@ form .form-control {
   width: 70%;
   margin: 0 auto;
 }
+.top-1{
+  font-size: 25px;
+}
 span{
   padding: 2px;
   border-bottom: 3px solid;
 }
 @media(max-width:500px){
-  .text-top{
-    font-size: 50px;
-  }
   .hh img{
     width:100%;
+  }
+  .text-top {
+    font-size: 47px;
+  }
+  .top-1{
+    font-size: 12px;
+  }
+  .hh h1{
+    font-size: 22px;
+  }
+
+  .hh p{
+    font-size: 13px;
   }
 }

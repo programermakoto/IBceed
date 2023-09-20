@@ -293,12 +293,25 @@ form .form-control {
   width: 50%;
   margin: 0 auto;
 }
+.top-1{
+  font-size: 25px;
+}
 span{
   padding: 2px;
   border-bottom: 3px solid;
 }
 @media(max-width:500px) {
   .text-top {
-    font-size: 100px;
+    font-size: 75px;
+  }
+  .top-1{
+    font-size: 15px;
+  }
+  .hh h1{
+    font-size: 22px;
+  }
+
+  .hh p{
+    font-size: 15px;
   }
 }

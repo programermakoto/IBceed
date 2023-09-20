@@ -304,3 +304,20 @@ form .form-control {
   font-size:60px;
   padding: 20px 10px;
 }
+.top-1{
+  font-size: 18px;
+}
+@media(max-width:500px){
+  .text-top {
+    font-size: 27px;
+  }
+  .top-1{
+    font-size: 10px;
+  }
+  .hh h1{
+    font-size: 22px;
+  }
+  .hh p{
+    font-size: 15px;
+  }
+}

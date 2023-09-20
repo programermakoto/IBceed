@@ -305,12 +305,25 @@ form .form-control {
   width: 94%;
   margin: 0 auto;
 }
+.top-1{
+  font-size: 25px;
+  color:white;
+}
 span{
   padding: 2px;
   border-bottom: 3px solid;
 }
 @media(max-width:500px){
-  .text-top{
-    font-size: 30px;
+  .text-top {
+    font-size: 36px;
+  }
+  .top-1{
+    font-size: 13px;
+  }
+  .hh h1{
+    font-size: 22px;
+  }
+  .hh p{
+    font-size: 15px;
   }
 }
