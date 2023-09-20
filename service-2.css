@@ -65,7 +65,7 @@ img {
 }
 
 .hero {
-  background-image: url(img/pc-main-bilding.jpg);
+  background: var(--dark);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -81,7 +81,6 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(37, 39, 71, 0.7);
   z-index: -1;
 }
 
@@ -162,7 +161,7 @@ section {
 
 /* message */
 .col-img {
-  background-image: url(img/pc-main-bilding.jpg);
+
   background-position: center;
   background-size: cover;
   /* 画像の全部を収めることができる。 */
@@ -261,9 +260,7 @@ form .form-control {
 
 
 /*add*/
-.add-img {
-  background-image: url(img/pc-main-bilding.jpg);
-}
+
 
 .add-p {
   line-height: 2;
@@ -292,20 +289,23 @@ form .form-control {
   background-color: #0d6efd;
 }
 .hh p{
-  font-size: 20px;
-
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 4px;
-  color: #fff;
-  border: 1px solid white;
-  margin:30px 0;
-  padding: 20px 10px;
-  background-color: #0d6efd;
+  width: 99%;
+  color: #5e5c45;
+  text-align:center;
+  margin: 30px auto;
+  padding: 10px 10px;
 }
 .text-top{
-  font-size:150px;
+  font-size: 120px;
   padding: 20px 10px;
   border-radius: 50%;
+}
+span{
+  padding: 2px;
+  border-bottom: 3px solid;
 }
 @media(max-width:500px){
   .text-top{
