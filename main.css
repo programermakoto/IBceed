@@ -266,3 +266,38 @@ form .form-control {
   line-height: 2;
   letter-spacing: 2px;
 }
+.br-sp{
+  display: none;
+}
+.br-pc{
+  display: block;
+}
+.top-1{
+  font-size: 20px;
+}
+.add-p{
+  font-size: 25px;
+}
+@media(max-width:500px) {
+  .text-top {
+    font-size: 78px;
+  }
+  .top-1{
+    font-size: 15px;
+  }
+  .add-p{
+    font-size: 15px;
+  }
+  .hh h1{
+    font-size: 22px;
+  }
+  .br-sp{
+    display:block;
+  }
+  .br-pc{
+    display: none;
+  }
+  .hh p{
+    font-size: 15px;
+  }
+}

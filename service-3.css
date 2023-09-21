@@ -316,7 +316,12 @@ span{
   border-bottom: 3px solid;
 
 }
-
+.br-sp{
+  display: none;
+}
+.br-pc{
+  display: block;
+}
 @media(max-width:500px){
   .text-top {
     font-size: 45px;
@@ -330,5 +335,11 @@ span{
   }
   .hh p{
     font-size: 15px;
+  }
+  .br-sp{
+    display:block;
+  }
+  .br-pc{
+    display: none;
   }
 }

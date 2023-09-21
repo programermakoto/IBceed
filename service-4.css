@@ -315,12 +315,22 @@ span {
   padding: 2px;
   border-bottom: 3px solid;
 }
-
+.br-sp{
+  display: none;
+}
+.br-pc{
+  display: block;
+}
 @media(max-width:500px) {
   .text-top {
     font-size: 38px;
   }
-
+  .br-sp{
+    display:block;
+  }
+  .br-pc{
+    display: none;
+  }
   .top-1 {
     font-size: 16px;
     
