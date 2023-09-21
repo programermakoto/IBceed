@@ -158,15 +158,12 @@ section {
 
 
 /* message */
-.col-img {
-  background-image: url(img/pc-main-bilding.jpg);
-  background-position: center;
-  background-size: cover;
-  /* 画像の全部を収めることができる。 */
-  min-height: 500px;
-}
 
+.row>* {
+  padding-right:0;
+}
 .project {
+  
   position: relative;
   overflow: hidden;
 }
