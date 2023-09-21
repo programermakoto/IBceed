@@ -158,9 +158,12 @@ section {
 
 
 /* message */
-
+.row{
+margin-left: 0;
+}
 .row>* {
   padding-right:0;
+  padding-left: 0;
 }
 .project {
   
